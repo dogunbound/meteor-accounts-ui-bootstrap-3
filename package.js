@@ -18,7 +18,7 @@ Package.on_use(function (api) {
 
 	// Allows the user of this package to choose their own Bootstrap
 	// implementation.
-	api.use(['twbs:bootstrap@3.3.1','nemo64:bootstrap@3.3.1_1'], 'client', {weak: true});
+	api.use(['twbs:bootstrap@=5.0.0','nemo64:bootstrap@3.3.1_1'], 'client', {weak: true});
 	// Allows us to call Accounts.oauth.serviceNames, if there are any OAuth
 	// services.
 	api.use('accounts-oauth@1.0.0', {weak: true});
